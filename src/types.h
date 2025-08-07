@@ -36,7 +36,7 @@ extern "C" {
 #define PLAT_MISSING_WIN32
 #endif
 
-#if defined(LINUX) || defined(TARGET_TWL)
+#if defined(LINUX) || defined(TARGET_TWL) || defined(TARGET_SWITCH) 
 #define FS_POSIX
 #endif
 
